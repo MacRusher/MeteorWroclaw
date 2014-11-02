@@ -1,48 +1,36 @@
 {
-  "environment" : "development",
+  "environment" : "production",
   "production" : {
     "meetup" : {
-      "oauth_key" : "<production_meetup_consumer_key>",
-      "oauth_secret" : "<production_meetup_consumer_secret>",
-      "api_key" : "<meetup_api_key>",
-      "group_urlname" : "Meteor-Las-Vegas"
+      "oauth_key" : "",
+      "oauth_secret" : "",
+      "api_key" : "",
+      "group_urlname" : "Meteor-Wroclaw"
     }
   },
   "development" : {
     "meetup" : {
-      "oauth_key" : "<development_meetup_consumer_key>",
-      "oauth_secret" : "<development_meetup_consumer_secret>",
-      "api_key" : "<meetup_api_key>",
-      "group_urlname" : "Meteor-Las-Vegas"
+      "oauth_key" : "",
+      "oauth_secret" : "",
+      "api_key" : "",
+      "group_urlname" : "Meteor-Wroclaw"
     }
   },
   "public" : {
     "meetup" : {
-      "group_name" : "Meteor Vegas",
-      "group_urlname" : "Meteor-Las-Vegas",
-      "group_info" : "We are a group of Meteor.js enthusiasts who meet twice a month in Las Vegas, NV",
-      "meteorday": "http://www.meetup.com/Meteor-Las-Vegas/events/212820662/"
+      "group_name" : "Meteor Wrocław",
+      "group_urlname" : "Meteor-Wroclaw",
+      "group_info" : "",
+      "meteorday": "http://www.meetup.com/Meteor-Wroclaw/events/212456442/"
     },
     "links" : {
-      "meetup": "http://www.meetup.com/Meteor-Las-Vegas/",
-      "twitter": "https://twitter.com/MeteorVegas",
-      "github": "https://github.com/meteor-vegas"
+      "meetup": "http://www.meetup.com/Meteor-Wroclaw/"
     },
     "sponsors" : [
       {
-        "title" : "Differential",
-        "url" : "http://differential.io",
-        "image" : "/sponsors/differential.png"
-      },
-      {
-        "title" : "Modulus",
-        "url" : "http://modulus.io",
-        "image" : "/sponsors/modulus.png"
-      },
-      {
-        "title" : "#VegasTech",
-        "url" : "http://vegastech.com",
-        "image" : "/sponsors/vegastech.png"
+        "title" : "Vazco",
+        "url" : "http://www.vazco.eu",
+        "image" : "/sponsors/vazco.png"
       }
     ]
   }
